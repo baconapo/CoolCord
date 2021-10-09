@@ -1,0 +1,25 @@
+/* ---- Colors and Transitions ---- */
+.winButtonClose-1HsbF- {
+    transition: ease-out 0.4s;
+    color: rgb(255,0,64);
+}
+.winButtonClose-1HsbF-:hover {
+	color: rgb(255,0,64);
+    background-color: rgba(255, 0, 0, 0.3);
+}
+.winButtonMinMax-PBQ2gm:nth-child(3) {
+    transition: ease-out 0.4s;
+    color: rgb(255,190,0);
+}
+.winButtonMinMax-PBQ2gm:nth-child(3):hover {
+	color: rgb(255,190,0);
+	background-color: rgba(255, 200, 0, 0.3);
+}
+.winButtonMinMax-PBQ2gm:last-child {
+    transition: ease-out 0.4s;
+    color: rgb(0,50,255);
+}
+.winButtonMinMax-PBQ2gm:last-child:hover {
+	color: rgb(0,50,255);
+	background-color: rgba(0, 0, 255, 0.2);
+}
