@@ -1,0 +1,31 @@
+/* ---- Icons and Buttons Colors ---- */
+/* Gift */
+.button-38aScr .buttonWrapper-1ZmCpA > * {
+    color: #ff73fa;
+}
+/* Gif */
+#gif-picker-tab .navButton-2gQCx-,
+.button-38aScr .icon-3D60ES {
+    color: #5865f2;
+}
+#gif-picker-tab .navButtonActive-1MkytQ,
+#gif-picker-tab button:hover {
+    background-color: #5865f22a;
+}
+/* Stickers */
+#sticker-picker-tab .navButton-2gQCx-,
+.button-38aScr .stickerIcon-3TP7EM {
+    color: #57f287;
+}
+#sticker-picker-tab .navButtonActive-1MkytQ,
+#sticker-picker-tab button:hover {
+    background-color: #57f2872a;
+}
+/* Emoji Picker */
+#emoji-picker-tab .navButton-2gQCx- {
+    color: #ffcc4d;
+}
+#emoji-picker-tab .navButtonActive-1MkytQ,
+#emoji-picker-tab button:hover {
+    background-color: #ffcc4d2a;
+}
