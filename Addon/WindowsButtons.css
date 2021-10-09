@@ -1,9 +1,8 @@
 .platform-win .winButton-iRh8-Z {
-    position: relative;
-    top: calc(var(--TB-position-top, 0px) - 5px);
-    right: var(--TB-position-right, 0px);
-    height: var(--TB-height, 23px);
-    width: var(--TB-width, 37px);
+    top: calc(0px - 5px);
+    right: 0px;
+    height: 23px;
+    width: 37px;
 }
 
 /* ---- Colors and Transitions ---- */
