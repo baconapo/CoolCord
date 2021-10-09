@@ -1,0 +1,14 @@
+/**
+    * @name Message Bubbles
+    * @version 1.0.0
+    * @description Makes all the messages show up in a bubble. (Can be used as an add-on on another theme)
+    * @author Brae#7777
+    *
+    * @website https://BaconAPo.github.io/themes
+    * @source https://BaconAPo.github.io/themes/Addon/messagebubbles.css
+**/
+/* change radius that way: --->>>                                                                                                                                                                                                                                                                                                                >>>>>>>>||||BELOW||||||||| */
+.cozy-3raOZG .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK),.cozy-3raOZG .repliedMessage-VokQwo,.embedFull-2tM8--,.message-2qnXI6 .imageWrapper-2p5ogY,.wrapper-35wsBm{background-color:var(--background-secondary);font-weight:500;margin-left:0!important;margin-top:4px!important;padding-left:0!important;padding:12px!important;border-radius:19px 19px 19px 19px;width:max-content;max-width:80%;box-shadow:var(--elevation-low);overflow:visible!important;box-sizing:border-box}
+
+/* Delete the line below if u dont like the cool shifty cozy thingy*/
+.cozy-3raOZG.wrapper-2a6GCs{margin-left:7px}
