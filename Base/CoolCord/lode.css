@@ -1,0 +1,125 @@
+/* Lode base stuf */
+@import "https://leeprky.github.io/themes/lode/extra-variables.css";
+
+
+
+
+
+
+    .avatar-1BDn8e.clickable-1bVtEA{width:48px;height:48px;left:12px}
+    .cozy-3raOZG.wrapper-2a6GCs{margin-left:7px}
+    .cozy-3raOZG .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK),.cozy-3raOZG .repliedMessage-VokQwo,.embedFull-2tM8--,.wrapper-35wsBm{background-color:var(--background-secondary);font-weight:500;margin-left:0!important;margin-top:4px!important;padding-left:0!important;padding:12px!important;border-radius:var(--chat-text-border-radius);width:max-content;max-width:100%;box-shadow:var(--elevation-low);overflow:visible!important;box-sizing:border-box}
+    .divider-3_HH5L,.jumpToPresentBar-G1R9s6,.newMessagesBar-265mhP{width:calc(100% - 330px)}
+    .guilds-1SWlCJ{border-radius:var(--borders-radius)!important;margin-right:var(--borders-radius-right)!important;margin-left:var(--borders-radius-left)!important;margin-bottom:var(--borders-radius-bottom)!important;margin-top:var(--borders-radius-top)!important}
+    .applicationStore-1pNvnv,.chat-3bRxxu,.container-1D34oG,.container-3Mxszk,.sidebar-2K8pFh{border-radius:var(--borders-radius)!important;margin-right:var(--borders-radius-right)!important;margin-bottom:var(--borders-radius-bottom)!important;margin-top:var(--borders-radius-top)!important}
+    .applicationStore-1pNvnv,.chat-3bRxxu,.container-1D34oG,.container-3Mxszk{position:relative;left:-6px;margin-left:var(--borders-radius-left)!important;margin-top:var(--borders-radius-top)!important}
+    .wordmark-2iDDfm:after{content:var(--watermark-text);font-size:20px;font-weight:700;position:absolute;width:4000px;top:7px;color:var(--background-accent);margin-left:var(--watermark-text-left);font-family:Discord}
+    #app-mount .privateChannels-1nO12o .searchBar-6Kv8R2{position:absolute;bottom:10px;right:10px;height:30px;width:30px;border:none;border-radius:40px;background:linear-gradient(to bottom right,var(--background-accent),var(--background-accent-gradient));box-shadow:2px 10px 10px var(--shadow,rgba(0,0,0,0.2))!important;overflow:hidden;cursor:pointer;transition:all .2s ease-in-out;pointer-events:all;padding:0}
+    #app-mount .privateChannels-1nO12o .searchBar-6Kv8R2 .searchBarComponent-32dTOx::before{content:"Search Direct Messages";position:absolute;top:50%;transform:translateY(-25%);width:180px;bottom:-10px;right:0;color:#fff;opacity:.5;font-size:12px;line-height:100%;transition:all .2s ease-in-out;pointer-events:none}
+    #app-mount .privateChannels-1nO12o .searchBar-6Kv8R2 .searchBarComponent-32dTOx{color:transparent}
+    #app-mount .titleBar-AC4pGV{z-index:5;background-color:var(--background-secondary);border-radius:var(--titlebar-borders-radius)!important;margin-top:var(--titlebar-borders-radius-top)!important;margin-bottom:var(--titlebar-borders-radius-bottom)!important;margin-right:var(--titlebar-borders-radius-right)!important;margin-left:var(--titlebar-borders-radius-left)!important;padding-top:0}
+    #app-mount .titleBar-AC4pGV .wordmark-2iDDfm svg{width:0}
+    #app-mount .titleBar-AC4pGV .wordmark-2iDDfm::after{content:var(--watermark-text);position:absolute;font-family:Discord;background:linear-gradient(var(--watermark-gradient));animation:Gradient 4s ease infinite;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;background-size:200% 200%;font-weight:600;top:var(--watermark-text-top)}
+	.label-22pbtT{margin-left:30px}
+	#app-mount .privateChannels-1nO12o .searchBar-6Kv8R2:hover{width:222px}
+
+
+
+
+.labelContainer-1BLJti {
+  margin-left: -30px
+}
+
+/*USER PROFILE THINGY WITH STATUS THING */
+#app-mount .container-3baos1 {
+    position: fixed !important;
+    right: 5px !important;
+	top: 40px !important;
+	order: 0;
+    border-radius: 25px;
+    background-color: transparent; !important;
+}
+#app-mount .container-3baos1 .avatarWrapper-2yR4wp .wrapper-3t9DeA {
+    --avatar-size: 32px;
+    width: var(--avatar-size) !important;
+    height: var(--avatar-size) !important;
+}
+
+#app-mount .container-3baos1 .nameTag-3uD-yy {
+    position: absolute;
+    left: 9999px; /* If u actually wanna see it then fix that px to 0 and then edit it from there */
+	margin-top: 20px
+    order: 2;
+    max-width: 75px;
+    padding: 2px 15px 2px 5px;
+    background-color: transparent;
+    opacity: 1;
+    pointer-events: none;
+}
+
+
+
+/* No scrollbars, Delete the line below if you want the scrollbar back */
+/*
+::-webkit-scrollbar { display: none;}.content-1x5b-n { margin: 0 !important; border-radius: 0; }.mainContent-u_9PKf { padding-left: 8px;}.container-2Pjhx- { margin: 0; max-width: unset; }.layout-2DM8Md { border-radius: 0; padding: 0 16px;}.unread-2lAfLh { z-index: 1;} .buttons-3JBrkn { padding-right: 10px !important;}
+*/
+/* Settings Modal, Delete the line below if you want the normal settings */
+#app-mount .baseLayer-35bLyl {	opacity: 1 !important;	transform: unset !important;	will-change: unset !important;}#app-mount .stop-animations * {	transition-property: inherit !important;	animation: inherit !important;}#app-mount .layer-3QrUeG.stop-animations:first-child::after {	content: "" !important;	position: fixed !important;	background: rgb(0, 0, 0) !important;	top: 0 !important;	right: 0 !important;	bottom: 0 !important;	left: 0 !important;	margin: 0 !important;	padding: 0 !important;	opacity: 0.85 !important;	z-index: 999 !important;	pointer-events: none !important;}#app-mount .layer-3QrUeG ~ .layer-3QrUeG {	position: absolute !important;	top: 0 !important;	right: 0 !important;	bottom: 0 !important;	left: 0 !important;	background: var(--settingsmodalbackground) !important;	border-radius: 5px !important;	box-shadow: var(--elevation-high) !important;	width: var(--settingsmodalwidth) !important;	height: var(--settingsmodalheight) !important;	margin: auto !important;	padding: 0 !important;	overflow: hidden !important;	contain: unset !important;	z-index: 1000 !important;}#app-mount .layer-3QrUeG ~ .layer-3QrUeG > div,#app-mount .layer-3QrUeG ~ .layer-3QrUeG .standardSidebarView-3F1I7i {	position: static !important;	border-radius: unset !important;	width: 100% !important;	height: 100% !important;	margin: unset !important;	padding: unset !important;	overflow: hidden !important;}#app-mount .layer-3QrUeG ~ .layer-3QrUeG .sidebar-CFHs9e,#app-mount .layer-3QrUeG ~ .layer-3QrUeG .contentColumnDefault-1VQkGM {	padding-top: 20px !important;	padding-bottom: 20px !important;}#app-mount .layer-3QrUeG ~ .layer-3QrUeG .sidebar-dLM-kh {	height: var(--settingsmodalheight) !important;}#app-mount .layer-3QrUeG ~ .layer-3QrUeG .repoHeader-2KfNvH {	max-width: calc(var(--settingsmodalwidth) - 256px) !important;;}#app-mount .layer-3QrUeG ~ .layer-3QrUeG .standardSidebarView-3F1I7i .editor {	height: calc(var(--settingsmodalheight) - 120px) !important;}#app-mount .layer-3QrUeG ~ .layer-3QrUeG .toolsContainer-1edPuj,#app-mount .layer-3QrUeG ~ .layer-3QrUeG .toolsContainer-1edPuj .tools-3-3s-N,#app-mount .layer-3QrUeG ~ .layer-3QrUeG .toolsContainer-1edPuj .container-1sFeqf,#app-mount .layer-3QrUeG ~ .layer-3QrUeG .toolsContainer-1edPuj .closeButton-1tv5uR {	position: absolute !important;	top: 0 !important;	right: 0 !important;	bottom: 0 !important;	left: 0 !important;	background: transparent !important;	border: none !important;	border-radius: 0 !important;	width: 100% !important;	max-width: unset !important;	height: 100% !important;	max-height: unset !important;	margin: 0 !important;	padding: 0 !important;	opacity: 0 !important;	cursor: default !important;}#app-mount .layer-3QrUeG ~ .layer-3QrUeG .toolsContainer-1edPuj {	position: fixed !important;	top: 22px !important;	z-index: -1 !important;}#app-mount .layer-3QrUeG ~ .layer-3QrUeG .settingsToolbar-wu4yfQ {	display: none !important;}#app-mount .layer-3QrUeG ~ .layer-3QrUeG .header-2RyJ0Y {	max-width: calc(var(--settingsmodalwidth) - 730px) !important;}#app-mount .root-3R2ngo {	position: fixed !important;	top: 0 !important;	right: 0 !important;	bottom: 0 !important;	left: 0 !important;	background: var(--settingsmodalbackground) !important;	border-radius: 5px !important;	box-shadow: var(--elevation-high) !important;	width: var(--settingsmodalwidth) !important;	height: var(--settingsmodalheight) !important;	margin: auto !important;	padding: 0 !important;	overflow: hidden !important;	contain: unset !important;	z-index: 1000 !important;}#app-mount .root-3R2ngo.enterDone-2zvtsK {	transform: unset !important;}#app-mount .perksModal-fSYqOq {	position: static !important;	border-radius: unset !important;	width: 100% !important;	height: 100% !important;	margin: unset !important;	padding: unset !important;}#app-mount .perksModal-fSYqOq::before {	width: var(--settingsmodalwidth) !important;	height: var(--settingsmodalheight) !important;	margin: auto !important;}#app-mount .perksModalContentWrapper-2HU6uL {	padding: 10px 0 10px !important;}#app-mount .root-3R2ngo .perksModal-fSYqOq .carousel-6MSnEI {	margin-left: calc(-0.5 * (100vw - var(--settingsmodalwidth))) !important;}#app-mount .root-3R2ngo .closeWrapper-9ScmSq,#app-mount .root-3R2ngo .closeWrapper-9ScmSq .closeContent-I3JbQJ,#app-mount .root-3R2ngo .closeWrapper-9ScmSq .container-1sFeqf,#app-mount .root-3R2ngo .closeWrapper-9ScmSq .closeButton-1tv5uR {	position: absolute !important;	top: 0 !important;	right: 0 !important;	bottom: 0 !important;	left: 0 !important;	background: transparent !important;	border: none !important;	border-radius: 0 !important;	width: 100% !important;	max-width: unset !important;	height: 100% !important;	max-height: unset !important;	margin: 0 !important;	padding: 0 !important;	opacity: 0 !important;	cursor: default !important;}#app-mount .root-3R2ngo .closeWrapper-9ScmSq {	position: fixed !important;	top: 22px !important;	z-index: -1 !important;}#app-mount .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {  background-color: var(--background-secondary);  border-color: var(--background-tertiary);}
+
+/* Lode SECTIOND*/
+.theme-dark, .theme-light{
+
+        
+  /* Lode Specific */
+--alt-color: 56, 168, 151; /* RGB */
+--alt-color2: #1bb69f; /* HEX */
+--alt-color3: 171; /* HSL */  
+         
+
+  /* Making Things Round */ /* Four Numbers = Four Corners */
+--modal-border-radius: 15px 15px 15px 15px;
+--floating-border-radius: 15px 15px 15px 15px;
+--expanded-border-radius: 15px 15px 15px 15px;
+--hover-border-radius: 10px 10px 10px 10px;
+--avatar-border-radius: 11.5px; /* Serverlist Too */
+--avatar-border-radius-hover: 5.5px 5.5px 5.5px 5.5px;
+--chat-text-border-radius: 19px 19px 19px 19px;
+
+ /* ROUND THINGS */
+--borders-radius: 18px;
+--borders-radius-right: 4px;
+--borders-radius-left: 9px;
+--borders-radius-bottom: 8px;
+--borders-radius-top: 5px;
+
+--titlebar-borders-radius: 12px;
+--titlebar-borders-radius-right: 9px;
+--titlebar-borders-radius-left: 8px;
+--titlebar-borders-radius-bottom: 8px;
+--titlebar-borders-radius-top: 8px;
+
+
+
+/* Watermark */
+--watermark-text: "Epikord";
+--watermark-text-top: 12px;
+--watermark-text-left: 5.6rem;
+--watermark-gradient: 270deg, rgb(132, 174, 40), rgb(00, 100, 172);
+
+}
+
+/* Windows Bar */
+#app-mount>div[class*=titleBar]>div[class*=wordmark]{margin-top:0rem;margin-left:var(--watermark-text-left)}
+#app-mount>div[class*=titleBar]{display:grid;justify-content:right;grid-template-columns:min-content min-content min-content;direction:rtl;height:1.72rem;margin:5px 0 0 0;margin-right:var(--win-right)}
+#app-mount>div[class*=titleBar]>div[class*=winButton]{height:unset;display:grid;width:2rem;height:1.72rem;border-radius:4px}
+#app-mount>div[class*=titleBar]>div[class*=winButton]>svg{height:40%;width:100%}
+#app-mount>div[class*=app]{margin-top:-.4rem}
+.messagesPopoutWrap-1MQ1bW{background-color:var(--background-tertiary)!important}
+.titleBar-AC4pGV>:nth-child(2):hover{background-color:var(--win-close-color)}
+.titleBar-AC4pGV>:nth-child(3):hover{background-color:var(--win-minimise-color)}
+.titleBar-AC4pGV>:nth-child(4):hover{background-color:var(--win-maximise-color)}
+.panels-j1Uci_{transition:height .5s;z-index:902;bottom:5em;border-radius:1em!important;width:240px}
+.membersWrap-2h-GB4{background-color:var(--background-secondary);}
+.membersWrap-2h-GB4{z-index:93;height:calc(100% - 28px);position:absolute;right:1em;width:calc(0% - 9999px);}
+.divider-3_HH5L,.jumpToPresentBar-G1R9s6,.newMessagesBar-265mhP{width:calc(100% - 290px)}
+.searchResultsWrap-3-pOjs{z-index:93;height:calc(100% - 28px);position:absolute;right:1em;width:calc(0% - 9999px);}
