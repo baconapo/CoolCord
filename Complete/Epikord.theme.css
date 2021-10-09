@@ -1,0 +1,128 @@
+/**
+ * @name Epikord
+ * @description Epik theme inspired by NewCord and Simplify theme
+ * @author BraeFae_e
+ * @version 1.0.0
+ * @source https://baconapo.github.io/themes/Complete/Epikord.theme.css
+ * @updateUrl https://github.com/baconapo/themes/blob/main/Complete/Epikord.theme.css
+ * @website https://baconapo.github.io/themes
+ */
+
+/*Bases*/ 
+/* Simplify theme */
+@import url("https://baconapo.github.io/themes/Base/CoolCord/simplify.css");
+/* Lode Theme */
+@import url("https://baconapo.github.io/themes/Base/CoolCord/lodee.css");
+
+/*Addons*/
+@import url("https://discord-theme-addons.github.io/modern-channel-indicators/src/support/compiled.css");
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
+@import url("https://goose-nest.github.io/GT-RevertRebrand/RevertRebrand.theme.css");
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+@import url('https://mr-miner1.github.io/Better-Badges/src/badges.css');
+@import url(https://kaiidoo.github.io/Newcord/src/stuff/icons.css);
+@import url(https://nyri4.github.io/Discolored/main.css);
+
+/*MyAddons*/
+@import url("https://baconapo.github.io/themes/Addon/ColourfulButtons.css");
+@import url("https://baconapo.github.io/themes/Addon/CoolActivityStatus.css");
+@import url("https://baconapo.github.io/themes/Addon/GradientBackground.css");
+@import url('https://baconapo.github.io/themes/Addon/WindowsButtons.css');
+
+@import url(https://leeprky.github.io/themes/lode/default/support/win-buttons/win-buttons.css);
+
+
+/* ---- Discord Variables ---- */
+:root.theme-dark, .theme-light {
+  /* Font Family */
+    --font-primary: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-display: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  /* Settings Modal */
+    --settingsmodalbackground: transparent;
+    --settingsmodalwidth: 1000px;
+    --settingsmodalheight: 85vh;
+
+  /*  Header Color  */
+    --header-primary: #fff;
+    --header-secondary: #b9bbbe;
+
+  /*  Text Color  */
+    --text-normal: #f7f4f4;
+    --channels-default: #ddd5d3;
+    --interactive-normal: #EAE1DF;
+    --interactive-hover: #EAE1DF;
+    --interactive-active: #fff;
+    --interactive-muted: #505355;
+
+  /* Background Color */
+    --background-primary: #1c223a;
+    --background-secondary: #181d33;
+    --background-secondary-alt: ();
+    --background-tertiary: ();
+    --background-accent: #4d6a91;
+    --background-floating: #171d30;
+    --background-mentioned: rgba(0, 186, 254, 0.5);
+    --background-mentioned-hover: rgba(42, 196, 252, 0.63);
+	--background-titlebar: #cbd7e0;
+    --background-primary-alt: #cbd7e0;
+    --background-accent-gradient: #0f7464;
+
+  /* Scrollbars Color */
+    --scrollbar-thin-thumb: rgba(44, 49, 71, 0.658);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: rgba(67, 79, 134, 0.658);
+    --scrollbar-auto-track: rgba(24, 28, 51, 0.7);
+    --scrollbar-auto-scrollbar-color-thumb: rgba(67, 79, 134, 0.555);
+
+  /* Chat */
+    --channeltextarea-background: #1d222e;
+    --channeltextarea-background-hover: #1d222e;
+	
+
+  /* --- Channel Indicator --- */
+    --indicator-hovered: rgba(79, 84, 92, 0.25);
+    --indicator-rounding: 0;
+    --indicator-border-info: 2px solid;
+
+    --indicator-selected: 112, 135, 215;
+    --indicator-selected-border: rgba(var(--indicator-selected));
+    --indicator-selected-background: rgba(var(--indicator-selected), 0.1);
+    --indicator-selected-hover: rgba(var(--indicator-selected), 0.18);
+
+    --indicator-unread: 255, 255, 255;
+    --indicator-unread-border: rgba(var(--indicator-unread), 0.6);
+    --indicator-unread-background: rgba(var(--indicator-unread), 0.01);
+  
+    --indicator-connected: 67, 181, 129;
+    --indicator-connected-border: rgba(var(--indicator-connected));
+    --indicator-connected-background: rgba(var(--indicator-connected), 0.1);
+    --indicator-connected-hover: rgba(var(--indicator-connected), 0.18);
+
+  /* --- Radial Status --- */
+    --rs-small-spacing: 1px; /* Gap between avatar and status for members list/dms | MUST end in px */
+    --rs-medium-spacing: 2px; /* Gap between avatar and status for User popout | MUST end in px */
+    --rs-large-spacing: 3px; /* Gap between avatar and status for User profiles | MUST end in px */
+
+    --rs-small-width: 1px; /* Thickness of status border for members list/dms | MUST end in px */
+    --rs-medium-width: 2px; /* Thickness of status border for User popout | MUST end in px */
+    --rs-large-width: 3px; /* Thickness of status border for User profile | MUST end in px */
+
+    --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
+
+    --rs-online-color: #43b581; /* Colour for online status */
+    --rs-idle-color: #faa61a; /* Colour for idle status */
+    --rs-dnd-color: #f04747; /* Colour for dnd status */
+    --rs-offline-color: #636b75; /* Colour for offline status */
+    --rs-streaming-color: #643da7; /* Colour for streaming status */
+    --rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
+    --rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
+
+    --rs-phone-visible: none; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+    --container-color: var(--background-floating);
+ /* --BETTER BADG-- */
+:root{
+    --badge-size: 22px; /*discord defualt = 18px, theme defualt = 22px;*/
+    --badge-margin: 1.5px; /*discord default = 2px, theme defualt = 1.5px*/
+    --badges-everywhere-size: 15px; /*default = 15px*/
+}
