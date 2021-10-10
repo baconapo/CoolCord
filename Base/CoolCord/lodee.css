@@ -47,3 +47,40 @@
 .membersWrap-2h-GB4{z-index:93;height:calc(100% - 28px);position:absolute;right:-0.3em;width:calc(0% - 9999px);}
 .divider-3_HH5L,.jumpToPresentBar-G1R9s6,.newMessagesBar-265mhP{width:calc(100% - 290px)}
 .searchResultsWrap-3-pOjs{z-index:93;height:calc(100% - 28px);position:absolute;right:1em;width:calc(0% - 9999px);}
+
+/*LODE Settings Stuff*/
+.theme-dark, .theme-light{ 
+  /* Lode Specific */
+--alt-color: 56, 168, 151; /* RGB */
+--alt-color2: #1bb69f; /* HEX */
+--alt-color3: 171; /* HSL */  
+
+  /*Round Radiuses*/
+--modal-border-radius: 15px 15px 15px 15px;
+--floating-border-radius: 15px 15px 15px 15px;
+--expanded-border-radius: 15px 15px 15px 15px;
+--hover-border-radius: 10px 10px 10px 10px;
+--avatar-border-radius: 25px; /* Serverlist Too */
+--avatar-border-radius-hover: 15px 15px 15px 15px;
+--chat-text-border-radius: 19px 19px 19px 19px;
+
+
+--borders-radius: 18px;
+--borders-radius-right: 4px;
+--borders-radius-left: 9px;
+--borders-radius-bottom: 8px;
+--borders-radius-top: 5px;
+
+--titlebar-borders-radius: 12px;
+--titlebar-borders-radius-right: 9px;
+--titlebar-borders-radius-left: 8px;
+--titlebar-borders-radius-bottom: 8px;
+--titlebar-borders-radius-top: 8px;
+
+/* Watermark */
+--watermark-text: "Epikord";
+--watermark-text-top: 12px;
+--watermark-text-left: 5.6rem;
+--watermark-gradient: 270deg, #8f33ec, #fa6b6b;
+
+}
