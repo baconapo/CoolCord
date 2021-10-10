@@ -41,8 +41,9 @@
 .titleBar-AC4pGV>:nth-child(2):hover{background-color:var(--win-close-color)}
 .titleBar-AC4pGV>:nth-child(3):hover{background-color:var(--win-minimise-color)}
 .titleBar-AC4pGV>:nth-child(4):hover{background-color:var(--win-maximise-color)}
+
 .panels-j1Uci_{transition:height .5s;z-index:902;bottom:5em;border-radius:1em!important;width:240px}
 .membersWrap-2h-GB4{background-color:var(--background-secondary);}
-.membersWrap-2h-GB4{z-index:93;height:calc(100% - 28px);position:absolute;right:1em;width:calc(0% - 9999px);}
+.membersWrap-2h-GB4{z-index:93;height:calc(100% - 28px);position:absolute;right:-0.3em;width:calc(0% - 9999px);}
 .divider-3_HH5L,.jumpToPresentBar-G1R9s6,.newMessagesBar-265mhP{width:calc(100% - 290px)}
 .searchResultsWrap-3-pOjs{z-index:93;height:calc(100% - 28px);position:absolute;right:1em;width:calc(0% - 9999px);}
