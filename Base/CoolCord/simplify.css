@@ -581,7 +581,7 @@
 .container-1r6BKw {
   background: var(--background-primary);
   box-shadow: var(--shadow-bottom);
-  padding-right: 238px;
+  padding-right: 10px;
   z-index: 0;
 }
 /* Status picker Settings */
@@ -592,14 +592,7 @@
 .nameTag-3uD-yy {
   margin-left: 5px;
 }
-.container-3baos1 {
-  background: var(--background-secondary);
-  border-radius: 0 0 0 18px;
-  right: 0;
-  top: 0;
-  position: absolute;
-  width: 220px;
-}
+
 .iconWrapper-2OrFZ1[aria-label="Help"] {
   display: none;
 }
@@ -1176,39 +1169,7 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
   background: #f04747;
   border-color: #f04747;
   color: #ffffff;
-}
-.theme-light .app-2rEoOp .container-3baos1 > .noWrap-3jynv6 > .button-14-BFJ:nth-child(3) {
-  position: fixed;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  margin-top: 70px;
-  width: 220px;
-  height: 40px;
-  visibility: visible !important;
-  background: #f04747 !important; /* Container Color */
-  border-radius: 4px;
-  animation: settingsflash 1s ease infinite;
-  opacity: 1;
-}
-.theme-light .app-2rEoOp .container-3baos1 > .noWrap-3jynv6 > .button-14-BFJ:nth-child(3)::before {
-  position: absolute;
-  content: "GO TO SETTINGS";
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 230px;
-  height: 14px;
-  border-radius: 5px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  visibility: visible !important;
-  font-size: 17px;
-  font-weight: 700;
-  color: #ffffff;
-  text-align: center;
-}
+
 .theme-light [aria-controls="Appearance-tab"] {
   border: 2px solid #f04747;
   animation: settingsflash 1s ease infinite;
