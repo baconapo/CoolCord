@@ -84,8 +84,8 @@
 --floating-border-radius: 15px 15px 15px 15px;
 --expanded-border-radius: 15px 15px 15px 15px;
 --hover-border-radius: 10px 10px 10px 10px;
---avatar-border-radius: 11.5px; /* Serverlist Too */
---avatar-border-radius-hover: 5.5px 5.5px 5.5px 5.5px;
+--avatar-border-radius: 25px; /* Serverlist Too */
+--avatar-border-radius-hover: 15px 15px 15px 15px;
 --chat-text-border-radius: 19px 19px 19px 19px;
 
  /* ROUND THINGS */
