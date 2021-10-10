@@ -33,11 +33,15 @@
 /*PROFILE+STATUS*/
 #app-mount .container-3baos1 {
     position: fixed !important;
-    right: 5px !important;
-	top: 40px !important;
+    /*right: 5px !important;*/
+	right: 6px;
+	/*top: 40px !important;*/
+	top: 42px;
 	order: 0;
-    border-radius: 25px;
-    background-color: transparent; !important;
+    /*border-radius: 25px;*/
+	border-radius: 16px;
+    background-color: transparent !important;
+	/*background-color: var(--background-floating);*/
 }
 #app-mount .container-3baos1 .avatarWrapper-2yR4wp .wrapper-3t9DeA {
     --avatar-size: 32px;
@@ -46,16 +50,17 @@
 }
 
 #app-mount .container-3baos1 .nameTag-3uD-yy {
-    position: absolute;
-    left: 9999px; /* If u actually wanna see it then fix that px to 0 and then edit it from there */
+    /*position: absolute;*/
+    left: 0px; /* If u actually wanna see it then fix that px to 0 and then edit it from there, if not then di 9999 */
 	margin-top: 20px
     order: 2;
     max-width: 75px;
-    padding: 2px 15px 2px 5px;
+    /*padding: 2px 15px 2px 5px;*/
     background-color: transparent;
     opacity: 1;
     pointer-events: none;
 }
+
 
 /* UNCOMMENT FOR NO SCROLLBAR */
 /*
