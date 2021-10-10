@@ -1,0 +1,24 @@
+/*PROFILE+STATUS*/
+#app-mount .container-3baos1 {
+    position: fixed;
+	right: 18px;
+	top: 42px;
+	border-radius: 16px;
+    background-color: transparent;
+}
+#app-mount .container-3baos1 .avatarWrapper-2yR4wp .wrapper-3t9DeA {
+    --avatar-size: 32px;
+    width: var(--avatar-size);
+    height: var(--avatar-size);
+}
+
+#app-mount .container-3baos1 .nameTag-3uD-yy {
+    /*position: absolute;*/
+    left: 0px; /*If want dissapear do position abosolute and set px to 9999*/
+	margin-top: 20px
+    max-width: 75px;
+    background-color: transparent;
+    opacity: 1;
+    pointer-events: none;
+}
+.container-1r6BKw {padding-right: 250px;}
