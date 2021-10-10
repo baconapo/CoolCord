@@ -20,8 +20,11 @@
     #app-mount .titleBar-AC4pGV{z-index:5;background-color:var(--background-secondary);border-radius:var(--titlebar-borders-radius)!important;margin-top:var(--titlebar-borders-radius-top)!important;margin-bottom:var(--titlebar-borders-radius-bottom)!important;margin-right:var(--titlebar-borders-radius-right)!important;margin-left:var(--titlebar-borders-radius-left)!important;padding-top:0}
     #app-mount .titleBar-AC4pGV .wordmark-2iDDfm svg{width:0}
     #app-mount .titleBar-AC4pGV .wordmark-2iDDfm::after{content:var(--watermark-text);position:absolute;font-family:Discord;background:linear-gradient(var(--watermark-gradient));animation:Gradient 4s ease infinite;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;background-size:200% 200%;font-weight:600;top:var(--watermark-text-top)}
-	.label-22pbtT{margin-left:30px}
-	#app-mount .privateChannels-1nO12o .searchBar-6Kv8R2:hover{width:222px}
+   .label-22pbtT{margin-left:30px}
+   #app-mount .privateChannels-1nO12o .searchBar-6Kv8R2:hover{width:222px}
+   .avatar-1BDn8e.clickable-1bVtEA{border-radius:var(--avatar-border-radius);transition:.5s}
+   .avatar-1BDn8e.clickable-1bVtEA:hover{border-radius:var(--avatar-border-radius-hover);transition:.5s}
+
 
 
 
