@@ -24,6 +24,8 @@
     #app-mount .privateChannels-1nO12o .searchBar-6Kv8R2:hover{width:222px}
     .avatar-1BDn8e.clickable-1bVtEA{border-radius:var(--avatar-border-radius);transition:.5s}
     .avatar-1BDn8e.clickable-1bVtEA:hover{border-radius:var(--avatar-border-radius-hover);transition:.5s}
+    .scrollableContainer-2NUZem{transition:.5s;background-color:var(--channeltextarea-background)}
+    .scrollableContainer-2NUZem:hover{transition:.5s;background-color:var(--channeltextarea-background-hover)}
 
 
 .labelContainer-1BLJti {
